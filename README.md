@@ -1,6 +1,6 @@
 # CIFAR10 UNET Image Reconstruction
 
-This repository contains a PyTorch implementation of a UNET model that reconstructs two images from their averaged sum. Using the CIFAR-10 dataset, the model takes two randomly selected images, computes their pixel-wise average, and then uses a UNET architecture to reconstruct the original images from this averaged sum.
+This repository contains a PyTorch implementation of a UNET model that reconstructs two images from their averaged sum. Using the CIFAR-10 dataset, the notebook takes two randomly selected images, computes their pixel-wise average, and then uses a UNET architecture to reconstruct the original images from this averaged sum.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -34,17 +34,15 @@ The model is trained to reconstruct one image from each subset.
 ## Usage
 
 1. Prepare the CIFAR-10 dataset:
-   The dataset will be downloaded automatically through the PyTorch `torchvision.datasets` API when running the script.
+   The dataset will be downloaded automatically through the PyTorch `torchvision.datasets` API when running the notebook.
 
-2. Run the training script:
-    ```bash
-    python unet_cifar10_reconstruction.py
-    ```
+2. Run the notebook cells:
+   Execute the cells in the notebook to train the model and evaluate its performance.
 
-3. After training, the model will evaluate its performance on the test set and plot the reconstruction results.
+3. After training, the notebook will evaluate the model on the test set and plot the reconstruction results.
 
 4. **Testing the Model:**
-    Once trained, you can visualize the predictions by running the final section of the script, which displays original, averaged, and reconstructed images.
+    Once trained, you can visualize the predictions by running the final sections of the notebook, which display the original, averaged, and reconstructed images.
 
 ## Model Architecture
 
