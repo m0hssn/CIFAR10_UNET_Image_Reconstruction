@@ -8,7 +8,6 @@ This repository contains a PyTorch implementation of a UNET model that reconstru
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -67,14 +66,13 @@ Here are the results of the reconstruction:
 
 ![Original Images and Averaged Image](Images/inputsandorg.png)
 
-
 ### Predicted Images from the UNET
 
 ![Predicted Images](Images/predicted.png)
 
-## Contributing
+### Training Loss Plot
 
-If you would like to contribute to this project, feel free to create a fork and submit a pull request. Please ensure your contributions follow the project’s code style and include relevant tests.
+![Training Loss Plot](Images/loss.png)
 
 ## License
 
